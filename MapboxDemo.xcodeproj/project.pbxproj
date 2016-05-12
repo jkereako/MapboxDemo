@@ -12,28 +12,9 @@
 		62DB02691CE53663001C1E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62DB02671CE53663001C1E0B /* Main.storyboard */; };
 		62DB026B1CE53663001C1E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DB026A1CE53663001C1E0B /* Assets.xcassets */; };
 		62DB026E1CE53663001C1E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62DB026C1CE53663001C1E0B /* LaunchScreen.storyboard */; };
-		62DB02791CE53663001C1E0B /* MapboxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB02781CE53663001C1E0B /* MapboxDemoTests.swift */; };
-		62DB02841CE53663001C1E0B /* MapboxDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DB02831CE53663001C1E0B /* MapboxDemoUITests.swift */; };
 		62DB029C1CE5386F001C1E0B /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DB02951CE536FC001C1E0B /* Mapbox.framework */; };
 		62DB029D1CE5386F001C1E0B /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62DB02951CE536FC001C1E0B /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		62DB02751CE53663001C1E0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62DB02581CE53662001C1E0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62DB025F1CE53662001C1E0B;
-			remoteInfo = MapboxDemo;
-		};
-		62DB02801CE53663001C1E0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62DB02581CE53662001C1E0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62DB025F1CE53662001C1E0B;
-			remoteInfo = MapboxDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		62DB029E1CE5386F001C1E0B /* Embed Frameworks */ = {
@@ -57,12 +38,6 @@
 		62DB026A1CE53663001C1E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62DB026D1CE53663001C1E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62DB026F1CE53663001C1E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62DB02741CE53663001C1E0B /* MapboxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapboxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62DB02781CE53663001C1E0B /* MapboxDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxDemoTests.swift; sourceTree = "<group>"; };
-		62DB027A1CE53663001C1E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62DB027F1CE53663001C1E0B /* MapboxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapboxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62DB02831CE53663001C1E0B /* MapboxDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxDemoUITests.swift; sourceTree = "<group>"; };
-		62DB02851CE53663001C1E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62DB02951CE536FC001C1E0B /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,20 +47,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				62DB029C1CE5386F001C1E0B /* Mapbox.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62DB02711CE53663001C1E0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62DB027C1CE53663001C1E0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +61,6 @@
 				62DB02931CE536C0001C1E0B /* Resources */,
 				62DB02621CE53663001C1E0B /* Source */,
 				62DB02921CE536B5001C1E0B /* SupportFiles */,
-				62DB02911CE536AD001C1E0B /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,8 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				62DB02601CE53662001C1E0B /* MapboxDemo.app */,
-				62DB02741CE53663001C1E0B /* MapboxDemoTests.xctest */,
-				62DB027F1CE53663001C1E0B /* MapboxDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,33 +79,6 @@
 				62DB02651CE53663001C1E0B /* ViewController.swift */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		62DB02771CE53663001C1E0B /* UnitTests */ = {
-			isa = PBXGroup;
-			children = (
-				62DB027A1CE53663001C1E0B /* Info.plist */,
-				62DB02781CE53663001C1E0B /* MapboxDemoTests.swift */,
-			);
-			path = UnitTests;
-			sourceTree = "<group>";
-		};
-		62DB02821CE53663001C1E0B /* UITests */ = {
-			isa = PBXGroup;
-			children = (
-				62DB02851CE53663001C1E0B /* Info.plist */,
-				62DB02831CE53663001C1E0B /* MapboxDemoUITests.swift */,
-			);
-			path = UITests;
-			sourceTree = "<group>";
-		};
-		62DB02911CE536AD001C1E0B /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				62DB02821CE53663001C1E0B /* UITests */,
-				62DB02771CE53663001C1E0B /* UnitTests */,
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 		62DB02921CE536B5001C1E0B /* SupportFiles */ = {
@@ -197,42 +128,6 @@
 			productReference = 62DB02601CE53662001C1E0B /* MapboxDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62DB02731CE53663001C1E0B /* MapboxDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62DB028B1CE53663001C1E0B /* Build configuration list for PBXNativeTarget "MapboxDemoTests" */;
-			buildPhases = (
-				62DB02701CE53663001C1E0B /* Sources */,
-				62DB02711CE53663001C1E0B /* Frameworks */,
-				62DB02721CE53663001C1E0B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62DB02761CE53663001C1E0B /* PBXTargetDependency */,
-			);
-			name = MapboxDemoTests;
-			productName = MapboxDemoTests;
-			productReference = 62DB02741CE53663001C1E0B /* MapboxDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		62DB027E1CE53663001C1E0B /* MapboxDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62DB028E1CE53663001C1E0B /* Build configuration list for PBXNativeTarget "MapboxDemoUITests" */;
-			buildPhases = (
-				62DB027B1CE53663001C1E0B /* Sources */,
-				62DB027C1CE53663001C1E0B /* Frameworks */,
-				62DB027D1CE53663001C1E0B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62DB02811CE53663001C1E0B /* PBXTargetDependency */,
-			);
-			name = MapboxDemoUITests;
-			productName = MapboxDemoUITests;
-			productReference = 62DB027F1CE53663001C1E0B /* MapboxDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -245,14 +140,6 @@
 				TargetAttributes = {
 					62DB025F1CE53662001C1E0B = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					62DB02731CE53663001C1E0B = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 62DB025F1CE53662001C1E0B;
-					};
-					62DB027E1CE53663001C1E0B = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 62DB025F1CE53662001C1E0B;
 					};
 				};
 			};
@@ -270,8 +157,6 @@
 			projectRoot = "";
 			targets = (
 				62DB025F1CE53662001C1E0B /* MapboxDemo */,
-				62DB02731CE53663001C1E0B /* MapboxDemoTests */,
-				62DB027E1CE53663001C1E0B /* MapboxDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -287,20 +172,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62DB02721CE53663001C1E0B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62DB027D1CE53663001C1E0B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -313,36 +184,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62DB02701CE53663001C1E0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62DB02791CE53663001C1E0B /* MapboxDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62DB027B1CE53663001C1E0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62DB02841CE53663001C1E0B /* MapboxDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		62DB02761CE53663001C1E0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62DB025F1CE53662001C1E0B /* MapboxDemo */;
-			targetProxy = 62DB02751CE53663001C1E0B /* PBXContainerItemProxy */;
-		};
-		62DB02811CE53663001C1E0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62DB025F1CE53662001C1E0B /* MapboxDemo */;
-			targetProxy = 62DB02801CE53663001C1E0B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		62DB02671CE53663001C1E0B /* Main.storyboard */ = {
@@ -481,52 +323,6 @@
 			};
 			name = Release;
 		};
-		62DB028C1CE53663001C1E0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = Tests/UnitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexisdigital.MapboxDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapboxDemo.app/MapboxDemo";
-			};
-			name = Debug;
-		};
-		62DB028D1CE53663001C1E0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = Tests/UnitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexisdigital.MapboxDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapboxDemo.app/MapboxDemo";
-			};
-			name = Release;
-		};
-		62DB028F1CE53663001C1E0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = Tests/UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexisdigital.MapboxDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MapboxDemo;
-			};
-			name = Debug;
-		};
-		62DB02901CE53663001C1E0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = Tests/UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexisdigital.MapboxDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MapboxDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -544,24 +340,6 @@
 			buildConfigurations = (
 				62DB02891CE53663001C1E0B /* Debug */,
 				62DB028A1CE53663001C1E0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62DB028B1CE53663001C1E0B /* Build configuration list for PBXNativeTarget "MapboxDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62DB028C1CE53663001C1E0B /* Debug */,
-				62DB028D1CE53663001C1E0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62DB028E1CE53663001C1E0B /* Build configuration list for PBXNativeTarget "MapboxDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62DB028F1CE53663001C1E0B /* Debug */,
-				62DB02901CE53663001C1E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
